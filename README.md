@@ -9,12 +9,12 @@ This service is responsible for storing and serving all media files for the Outf
 
 ## API Endpoints
 
-|    Endpoint    |    Method    | Description            |
-|----------------|--------------|------------------------|
-| /media         | POST         | Upload media file      |
-| /media         | GET          | Get media file         |
-| /media         | DELETE       | Delete media file      |
-| /media         | PUT          | Update media file      |
+| Endpoint     | Method | Description       |
+|--------------|--------|-------------------|
+| /            | POST   | Upload media file |
+| /{file_name} | GET    | Get media file    |
+| /{file_name} | DELETE | Delete media file |
+| /{file_name} | PUT    | Update media file |
 
 ## Installation
 

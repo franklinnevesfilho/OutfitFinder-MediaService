@@ -1,0 +1,4 @@
+pip~=23.2.1
+wheel~=0.41.2
+cryptography~=42.0.8
+fastapi~=0.112.2
